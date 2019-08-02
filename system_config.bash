@@ -16,8 +16,3 @@ scm_ps1() {
 PS1="\[\033[1;30m\]\u\[\033[1;36m\]@\[\033[1;36m\]\h:\[\033[01;36m\]\w\[\033[1;30m\] \$(scm_ps1)\n\$\[\033[00m\] " 
 LS_COLORS="tw=94:ow=94"; export LS_COLORS
 
-
-## Aliases ##
-# Opens ipython with some imports (like numpy) and shortcuts (as np)
-alias pylab='ipython --pylab'
-alias pylab2='ipython2 --pylab'
