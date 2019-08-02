@@ -2,7 +2,7 @@
 	"auto_complete_commit_on_tab": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/Solarized (Dark) (SL).tmTheme",
+        "theme": "Adaptive.sublime-theme",
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"font_face": "Monaco, Regular",
@@ -16,7 +16,6 @@
 	"line_padding_top": 1,
 	"save_on_focus_lost": false,
 	"tab_size": 4,
-	"theme": "Soda SolarizedDark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"wide_caret": true
