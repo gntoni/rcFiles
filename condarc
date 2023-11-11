@@ -1,0 +1,3 @@
+
+# Set colour of conda environment in prompt
+env_prompt: '\[\033[38;5;75m\]({default_env}) '
