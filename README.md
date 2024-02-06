@@ -4,9 +4,7 @@ Folder with my personal linux configuration files.
 
 ## rc files Usage
 
-To use this files clone this repository and create symbolic links replacing the original rcFiles and pointing to these files.
-
-Example:  ln -s /home/user/rcFiles/vimrc /home/user/.vimrc
+The recommended way to use this package is to clone it onto the root folder and run `stow .` to create symbolic links in the root folder pointing to the files in the repo.
 
 
 ## system_config.bash Usage
@@ -16,4 +14,4 @@ Example:  ln -s /home/user/rcFiles/vimrc /home/user/.vimrc
 * Adds git/svn information of the current folder
 
 To use it, add this line in ~/.bashrc
-source /home/user/rcFiles/system_config.bash
+`source .system_config.bash`
