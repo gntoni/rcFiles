@@ -15,3 +15,8 @@ The recommended way to use this package is to clone it onto the root folder and 
 
 To use it, add this line in ~/.bashrc
 `source .system_config.bash`
+
+
+## Notes
+- To activate the new them in tmux, press: prefix + I
+- The catpuccin theme needs one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
