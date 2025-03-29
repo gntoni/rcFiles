@@ -4,6 +4,7 @@ Folder with my personal linux configuration files.
 
 ## dependencies
 - rigrep
+- npm (required for pyright LSP)
 
 ## rc files Usage
 
@@ -22,4 +23,4 @@ To use it, add this line in ~/.bashrc
 
 ## Notes
 - To activate the new them in tmux, press: prefix + I
-- The tmux and nvim themes ineed one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
+- The tmux and nvim themes need one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
