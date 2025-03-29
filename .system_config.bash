@@ -1,6 +1,7 @@
 ## Settings ##
 # make vim the default editor
 export EDITOR=vim
+alias vim=nvim
 
 # Terminal Colors
 # svn and git info
