@@ -2,6 +2,9 @@
 
 Folder with my personal linux configuration files. 
 
+## dependencies
+- rigrep
+
 ## rc files Usage
 
 The recommended way to use this package is to clone it onto the root folder and run `stow .` to create symbolic links in the root folder pointing to the files in the repo.
@@ -19,4 +22,4 @@ To use it, add this line in ~/.bashrc
 
 ## Notes
 - To activate the new them in tmux, press: prefix + I
-- The catpuccin theme needs one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
+- The tmux and nvim themes ineed one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
