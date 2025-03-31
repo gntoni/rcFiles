@@ -3,7 +3,8 @@
 Folder with my personal linux configuration files. 
 
 ## dependencies
-- rigrep
+- stow
+- ripgrep
 - npm (required for pyright LSP)
 
 ## rc files Usage
@@ -24,3 +25,19 @@ To use it, add this line in ~/.bashrc
 ## Notes
 - To activate the new them in tmux, press: prefix + I
 - The tmux and nvim themes need one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
+
+## Troubleshooting
+
+- The following error shows up when running nvim:
+```
+Error detected while processing ~/rcFiles/.config/nvim/init.lua:
+E5113: Error while calling lua chunk: ~/.config/nvim/init.lua:77: attempt to index field 'keymap' (a nil value)
+```
+
+**Solution:**
+Upgrade neovim to the latest version.
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+```
