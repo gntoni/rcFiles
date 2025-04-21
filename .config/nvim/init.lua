@@ -541,6 +541,14 @@ require("lazy").setup({
 			})
 
 			-- Diagnostic Config
+			-- Show all diagnostics on current line in floating window
+			vim.api.nvim_set_keymap(
+				"n",
+				"<Leader>d",
+				":lua vim.diagnostic.open_float()<CR>",
+				{ noremap = true, silent = true }
+			)
+			vim.diagnostic.open_float()
 			-- See :help vim.diagnostic.Opts
 			vim.diagnostic.config({
 				severity_sort = true,
