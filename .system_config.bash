@@ -24,3 +24,6 @@ _ssh_auth_save() {
     ln -sf "$SSH_AUTH_SOCK" "$HOME/.ssh/ssh-auth-sock.$HOSTNAME"
 }
 alias tmux='_ssh_auth_save ; export HOSTNAME=$(hostname) ; tmux'
+
+# Use vim instead of less for manpages
+export MANPAGER='nvim +Man!'
