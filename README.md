@@ -6,6 +6,7 @@ Folder with my personal linux configuration files.
 - stow
 - ripgrep
 - npm (required for pyright LSP)
+- xclip (required for tmux-yank plugin)
 
 ## rc files Usage
 
