@@ -24,7 +24,7 @@ To use it, add this line in ~/.bashrc
 
 
 ## Notes
-- To activate the new them in tmux, press: prefix + I
+- To activate the new theme in tmux, press: prefix + I
 - The tmux and nvim themes need one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
 
 ## Troubleshooting
