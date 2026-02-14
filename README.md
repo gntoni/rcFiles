@@ -6,6 +6,7 @@ Folder with my personal linux configuration files.
 - stow
 - ripgrep
 - npm (required for pyright LSP)
+- xclip (required for tmux-yank plugin)
 
 ## rc files Usage
 
@@ -23,7 +24,7 @@ To use it, add this line in ~/.bashrc
 
 
 ## Notes
-- To activate the new them in tmux, press: prefix + I
+- To activate the new theme in tmux, press: prefix + I
 - The tmux and nvim themes need one of the [nerdfonts](https://www.nerdfonts.com/font-downloads)
 
 ## Troubleshooting
@@ -40,4 +41,11 @@ Upgrade neovim to the latest version.
 sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
 sudo apt-get install neovim
+```
+- Stylua failed to install:
+
+**Solution:**
+Install unzip
+```
+sudo apt install unzip
 ```
