@@ -249,6 +249,8 @@ require("lazy").setup({
 		},
 	},
 
+	-- Add the catpuccin scheme and make macchiato the deffault colorscheme
+	{ "catppuccin/nvim", name = "catppuccin", priority = 1000 },
 	-- NOTE: Plugins can specify dependencies.
 	--
 	-- The dependencies are proper plugin specifications as well - anything
@@ -970,6 +972,9 @@ require("lazy").setup({
 		},
 	},
 })
+
+-- Make catppuccin macchiato the default colorscheme
+vim.cmd.colorscheme("catppuccin-macchiato")
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
